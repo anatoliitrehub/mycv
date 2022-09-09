@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'cursiv';
+    src: local('cursiv'), url(../data/Satisfy-Regular.ttf) format('truetype');
+}
+
+.body-bg {
+    background-image: url('../images/bois-texture-1456353976vDQ.jpg');
+    background-size: cover;
+}
+
+
+.container {
+    margin: 5px auto;
+    justify-content: center;
+    width: 150%;
+    /* background-color:darkgrey; */
+    border: 5px solid blue;
+    border-style: double;
+}
+
+
+.cv-left {
+    background: #4b4b4b;
+    min-height: 30vh;
+    color: #fff;
+}
+
+.cv-right {
+    background: #fff;
+    min-height: 30vh;
+    color: #131313;
+}
+
+ul {
+    padding-left: 10px;
+    text-align: left;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+li.cont {
+    list-style-type: none;
+
+}
+
+a.profiler {
+    text-decoration: none;
+    color: #fff;
+}
+
+dd,
+dt {
+    font-size: 1.5rem;
+}
+
+.profile {
+    font-size: 2rem;
+    font-family: cursiv, Arial, Helvetica, sans-serif;
+    /* font-style: italic; */
+}
+
+li.proj {
+    font-size: 28px;
+    list-style-type: none;
+
+}
